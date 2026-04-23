@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "version": 1,
+    "school": "Tetr College of Business",
+    "location": "Dubai, UAE",
+    "applicant": "Adrian Benages"
+  },
+  "deadlines": [
+    { "id": "financial-aid", "label": "Submit Financial Aid Form", "date": "2026-05-07" },
+    { "id": "deposit", "label": "Depósito USD 2,500", "date": "2026-05-20" },
+    { "id": "acceptance", "label": "Acceptance Form firmado", "date": "2026-05-15" }
+  ],
+  "finance": {
+    "tuitionBase": 80000,
+    "financialAidExpected": 25000,
+    "scholarshipAcademic": 5000,
+    "internshipIncome": 0,
+    "prepaidYears": 0,
+    "rebate1yr": 0.03,
+    "rebate2yr": 0.055
+  },
+  "family": {
+    "monthlyIncomeMom": 0,
+    "monthlyIncomeDad": 0,
+    "monthlyExpenses": 0,
+    "sisterSchoolCost": 0,
+    "currency": "BOB",
+    "notes": ""
+  },
+  "documents": [
+    { "id": "declaracion-jurada", "label": "Declaración Jurada SIN mamá (2 años)", "status": "pending" },
+    { "id": "recibos-sueldo", "label": "Recibos sueldo mamá (3 meses)", "status": "pending" },
+    { "id": "certificado-desempleo", "label": "Certificado desempleo papá", "status": "pending" },
+    { "id": "certificado-hermana", "label": "Certificado colegio hermana", "status": "received" },
+    { "id": "facturas-hogar", "label": "Facturas alquiler/servicios", "status": "received" }
+  ],
+  "tasks": [
+    { "id": "t01", "phase": 1, "label": "Pedir declaración jurada SIN mamá", "due": "2026-04-27", "done": false },
+    { "id": "t02", "phase": 1, "label": "Recolectar recibos sueldo últimos 3 meses", "due": "2026-04-27", "done": false },
+    { "id": "t03", "phase": 1, "label": "Certificado desempleo papá (Mín. Trabajo o notarial)", "due": "2026-04-28", "done": false },
+    { "id": "t04", "phase": 1, "label": "Juntar facturas alquiler + servicios últimos 3 meses", "due": "2026-04-28", "done": false },
+    { "id": "t05", "phase": 1, "label": "Extractos bancarios últimos 6 meses", "due": "2026-04-30", "done": false },
+    { "id": "t06", "phase": 2, "label": "Draft Statement of Purpose (SOP)", "due": "2026-05-02", "done": false },
+    { "id": "t07", "phase": 2, "label": "Portfolio: FLASH + Boehringer case studies", "due": "2026-05-03", "done": false },
+    { "id": "t08", "phase": 2, "label": "Request letter of recommendation a Karina", "due": "2026-05-01", "done": false },
+    { "id": "t09", "phase": 2, "label": "Review final SOP + portfolio", "due": "2026-05-06", "done": false },
+    { "id": "t10", "phase": 3, "label": "SUBMIT Financial Aid Form", "due": "2026-05-07", "done": false },
+    { "id": "t11", "phase": 3, "label": "Firmar Acceptance Form", "due": "2026-05-15", "done": false },
+    { "id": "t12", "phase": 3, "label": "Pagar depósito USD 2,500", "due": "2026-05-20", "done": false },
+    { "id": "t13", "phase": 4, "label": "Aplicar Fundación Carolina", "due": "2026-05-30", "done": false },
+    { "id": "t14", "phase": 4, "label": "Aplicar beca Banco Santander", "due": "2026-05-30", "done": false },
+    { "id": "t15", "phase": 4, "label": "Aplicar becas Min. Educación Bolivia", "due": "2026-06-15", "done": false },
+    { "id": "t16", "phase": 4, "label": "Research fundaciones privadas UAE", "due": "2026-06-30", "done": false },
+    { "id": "t17", "phase": 5, "label": "Agendar call con Lina Martinez (Academic Counsellor)", "due": "2026-05-10", "done": false },
+    { "id": "t18", "phase": 5, "label": "Preparar appeal letter si aid < USD 15K", "due": "2026-07-15", "done": false }
+  ],
+  "phaseLabels": {
+    "1": "Fase 1 · Documentación financiera",
+    "2": "Fase 2 · SOP + Portfolio + Letter",
+    "3": "Fase 3 · Submit + Accept + Deposit",
+    "4": "Fase 4 · Becas externas paralelas",
+    "5": "Fase 5 · Plan B (apelación / negociación)"
+  },
+  "notes": ""
+}
