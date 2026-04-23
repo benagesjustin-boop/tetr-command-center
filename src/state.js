@@ -5,7 +5,7 @@ let state = null;
 let seed = null;
 
 function baseUrl() {
-  return import.meta['env'].BASE_URL;
+  return import.meta.env.BASE_URL;
 }
 
 export async function initState() {
